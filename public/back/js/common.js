@@ -6,7 +6,7 @@ $(document).ajaxStart(function () {
  $(document).ajaxStop(function () { 
    setTimeout(function () { 
       NProgress.done()
-    },1000);
+    },500);
   })
 // 判断管理员是否登录，如果没有登录的话跳转到登录页面
 if (location.href.indexOf('login.html') === -1) {

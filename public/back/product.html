@@ -8,6 +8,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="lib/nprogress/nprogress.css">
+  <link rel="stylesheet" href="lib/nprogress/nprogress.css">
   <link rel="stylesheet" href="css/common.css">
 </head>
 <div class="lt_aside">
@@ -27,8 +28,8 @@
       <span class="glyphicon glyphicon-list"></span>
       <span>分类管理</span>
     </a>
-    <div class="child">
-      <a href="first.html" class="now">一级分类</a>
+    <div class="child" style="display: none;">
+      <a href="first.html">一级分类</a>
       <a href="second.html">二级分类</a>
     </div>
     <a href="product.html">
@@ -48,15 +49,12 @@
     </a>
   </div>
   <div class="container-fluid">
-      <ol class="breadcrumb">
-          <li>
-            <a href="#">管理系统 </a>
-          </li>
-          <li>
-            <a href="#">分类管理 </a>
-          </li>
-          <li class="active">一级分类</li>
-        </ol>
+    <ol class="breadcrumb">
+      <li>
+        <a href="#">管理系统 </a>
+      </li>
+      <li class="active">商品管理</li>
+    </ol>
   </div>
   <!-- 退出模态框 -->
   <div class="modal fade" id="logoutModal">
