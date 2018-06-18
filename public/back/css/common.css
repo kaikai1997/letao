@@ -80,11 +80,13 @@ a:link, a:visited, a:hover, a:active {
   padding-left:30px; 
   display: block;
 }
-.lt_aside .nav .child {
+/* .lt_aside .nav .child {
   display: none;
-}
+} */
 .lt_aside .nav .child a{
   padding-left:50px; 
+  border-left: 3px solid transparent;
+  display: block;
 }
 .lt_main {
   width: 100%;
@@ -122,4 +124,8 @@ a:link, a:visited, a:hover, a:active {
 }
 .lt_aside.now {
   left: -180px;
+}
+.lt_aside .nav .child a.now {
+  background-color: #1d1f21;
+  border-left: #337ab7 3px solid;
 }
