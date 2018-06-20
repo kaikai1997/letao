@@ -180,6 +180,7 @@ $(function () {
 
   $('form').on('success.form.bv',function (e) { 
     e.preventDefault();
+    
     var param = $('form').serialize();
     param += '&picName1=' + imgs[0].picName + '&picAddr1=' + imgs[0].picAddr;
     param += '&picName2=' + imgs[1].picName + '&picAddr2=' + imgs[1].picAddr;
