@@ -1,0 +1,69 @@
+.mui-android {
+  width: 100%;
+  /* height: 400px; */
+  /* max-width: 640px; */
+  overflow: hidden;
+}
+.mui-android .mui-slider-item{
+  width: 100%;
+  height: 100%;
+}
+.mui-android .mui-slider-item a{
+  width: 100%;
+  height: 100%;
+}
+.mui-android .mui-slider-item a img{
+  height: 100%;
+  display: block;
+} 
+.mui-scroll-wrapper {
+  padding-top: 45px;  
+  padding-bottom: 55px;
+}
+.nav {
+  padding: 10px;
+}
+.nav li {
+  float: left;
+  width: 33.33%;
+
+}
+.nav li a {
+  width: 100%;
+  /* height: 100%; */
+  display: block;
+}
+.nav li a img {
+  width: 100%;
+  display: block;
+  /* height: 100%; */
+}
+.lt_product {
+  padding: 10px;
+
+}
+.item {
+  float: left;
+  width: 48%;
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom:10px; 
+  border: 1px solid #ccc;
+
+}
+.item:nth-child(even) {
+  margin-left: 4%;
+  
+}
+.item img {
+  width: 100%;
+}
+.item .price {
+  color: red;
+}
+.item .oldPrice {
+  text-decoration: line-through;
+}
+.item p:last-child {
+text-align: center;
+}
